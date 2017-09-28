@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#74063f"
+    android:orientation="vertical"
+    tools:context="com.example.dell.appssquare.Activity.MainActivity">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/Rv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+<TextView
+    android:id="@+id/not_found"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="Data missed ...."
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:visibility="gone"
+
+
+
+    />
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/colorAccent"
+        android:indeterminateTintMode="src_atop"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="250dp"
+
+        />
+
+
+
+
+</RelativeLayout>

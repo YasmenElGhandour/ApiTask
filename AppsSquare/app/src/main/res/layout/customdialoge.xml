@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="20dp"
+    android:background="#fff"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#660435"
+            android:text="Do You Want Go To html_url or owner_url ?"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:padding="10dp"
+
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="right"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            >
+
+            <Button
+                android:id="@+id/htmlUrlBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Html_Url"
+                android:background="#7e2e60"
+                android:textColor="#fff"
+
+                android:textSize="12sp"
+                android:layout_marginRight="10dp"
+                />
+
+            <Button
+                android:id="@+id/ownerUrlBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Owner_Url"
+                android:background="#b1598f"
+                android:textColor="#fff"
+                android:textSize="12sp"
+
+                />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

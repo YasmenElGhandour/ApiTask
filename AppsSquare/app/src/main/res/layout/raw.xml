@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+android:layout_marginRight="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="1dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+    <LinearLayout
+        android:id="@+id/rawLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+      android:paddingTop="16dp"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:paddingBottom="16dp"
+        android:background="#fde800"
+
+        >
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    >
+    <TextView
+        android:id="@+id/repo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Repositry name "
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="#8b066a"
+        android:layout_marginRight="8dp"
+
+        />
+    <TextView
+        android:id="@+id/repoNameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Repositry name "
+        android:textColor="#ad020001"
+        android:layout_toRightOf="@+id/repo"
+
+        />
+
+</RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            >
+            <TextView
+                android:id="@+id/des"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description "
+                android:textColor="#8b066a"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:layout_marginRight="30dp"
+
+                />
+            <TextView
+                android:id="@+id/descrptionTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="jahjhdjhjhdjhfjhjfhjfhjhfjhfjhfjhfjhfjhfjhfjhfjhfjhfjhfjhfjhfjfhjfhjfhjfhfjhfjhfjhfjhfjhfjhfjfhfhjfhjfhjfhfj "
+                android:layout_toRightOf="@+id/des"
+                android:textColor="#ad020001"
+
+
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            >
+            <TextView
+                android:id="@+id/own"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Owner Name "
+                android:textColor="#8b066a"
+               android:textStyle="bold"
+                android:layout_marginRight="20dp"
+                android:textSize="12sp"
+
+                />
+            <TextView
+                android:id="@+id/ownerNameTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ahmed "
+                android:layout_toRightOf="@+id/own"
+                android:textColor="#ad020001"
+
+
+                />
+
+            <TextView
+                android:id="@+id/htmlU"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+            android:visibility="gone"
+
+
+                />
+            <TextView
+                android:id="@+id/ownerU"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+
+
+                />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+</android.support.v7.widget.CardView>
